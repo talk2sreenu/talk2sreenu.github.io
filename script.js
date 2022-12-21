@@ -1,5 +1,5 @@
 const btn = document.getElementById('submitBtn')
 
-btn.onClick = function displayAlert(){
+btn.onclick = function displayAlert(){
  alert("The button has been selected"); 
 }
